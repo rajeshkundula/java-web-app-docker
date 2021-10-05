@@ -1,3 +1,2 @@
 FROM tomcat:8.0.20-jre8
-COPY target/java-web-app-docker*.war /usr/share/tomcat/webapps/java-web-app-docker.war
-
+COPY target/java-web-app-docker*.war /usr/share/tomcat/webapps/WAR#EAR/java-web-app-docker.war
